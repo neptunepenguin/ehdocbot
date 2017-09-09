@@ -1,0 +1,17 @@
+# ignores for django (python) and vim
+
+# python (2 and 3)
+*.pyc
+__pychache__
+
+# virtualenv
+/venv-eh
+
+# setuptools
+/dist
+/MANIFEST
+/src/*.egg-info
+
+# vim
+*.swp
+
