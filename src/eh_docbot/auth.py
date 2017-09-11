@@ -4,6 +4,7 @@ import os, sys, time, re, logging, getopt
 from itertools import dropwhile
 import requests
 from bs4 import BeautifulSoup
+from . import util
 
 
 __doc__ = """
